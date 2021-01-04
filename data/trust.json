@@ -1,0 +1,46 @@
+{
+  "trust_reg": [
+    {
+      "desc": "请求后台充值成功",
+      "expect_msg": "OK"
+    }
+  ],
+  "trust_verify_code": [
+    {
+      "desc": "获取充值验证码成功(随机小数 )",
+      "response_code": 200
+    }
+  ],
+  "trust_recharge": [
+    {
+      "desc": "请后台充值成功",
+      "amount": 1000,
+      "img_code": 8888,
+      "expect_msg": "OK"
+    },
+    {
+      "desc": "请后台充值失败（验证码错误）",
+      "amount": 1000,
+      "img_code": 8889,
+      "expect_msg": "验证码错误"
+    },
+    {
+      "desc": "请后台充值失败（充值金额为空)",
+      "amount": "",
+      "img_code": 8888,
+      "expect_msg": "充值金额不能为空"
+    },
+    {
+      "desc": "请后台充值失败（金额为 负数）",
+      "amount":-1,
+      "img_code": 8888,
+      "expect_msg": "充值金额必须大于0"
+    },
+    {
+      "desc": "请后台充值失败（金额为0）",
+      "amount":0,
+      "img_code": 8888,
+      "expect_msg": "充值金额必须大于0"
+    }
+  ]
+}

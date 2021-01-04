@@ -1,0 +1,509 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1609729688502" stop="1609729699248">
+  <name>script</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1609729688502" status="passed" stop="1609729689917">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test01_img_code[0.12334223-200]</name>
+      <attachments>
+        <attachment source="52950766-cc72-4978-9440-7ce4393da182-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="e9a78b25-98cf-4171-a446-c97b18c3196d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729689918" status="passed" stop="1609729690050">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test01_img_code[12334223-200]</name>
+      <attachments>
+        <attachment source="a6a9c469-e358-4220-a5ea-738e01be99c4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690051" status="passed" stop="1609729690189">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test01_img_code[-404]</name>
+      <attachments>
+        <attachment source="70bb1efe-6a8a-4857-9b9d-89a3085ce0a1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690190" status="passed" stop="1609729690320">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test01_img_code[keliinkdfyyosd-400]</name>
+      <attachments>
+        <attachment source="c38342c5-da47-4acd-9b3d-cdab09c352c7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690321" status="passed" stop="1609729690529">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test02_sms_code[13600001111-8888-200-\u77ed\u4fe1\u53d1\u9001\u6210\u529f]</name>
+      <attachments>
+        <attachment source="f1548b08-f025-4436-be5a-0810839b4c2b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690530" status="passed" stop="1609729690726">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test02_sms_code[-8888-200-100]</name>
+      <attachments>
+        <attachment source="ace7fcc0-be59-4039-966a-4fca7705aa29-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690727" status="passed" stop="1609729690924">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test02_sms_code[13600001111-8889-200-\u56fe\u7247\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="965cd896-4b91-4621-ab9a-a7b0efad9a90-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729690925" status="passed" stop="1609729691241">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test03_register[13600001111-test123-8888-666666-on-None-\u6ce8\u518c\u6210\u529f]</name>
+      <attachments>
+        <attachment source="6a4ea228-c730-4316-8d5f-6364f3dc76f2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729691242" status="passed" stop="1609729691559">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test03_register[13600001112-test123-8888-666666-on-13600001111-\u6ce8\u518c\u6210\u529f]</name>
+      <attachments>
+        <attachment source="cae6ff57-b6ae-45a1-b0b5-88a4a6e8454a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729691560" status="passed" stop="1609729691840">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test03_register[13600001113-test123-8889-666666-on-None-\u9a8c\u8bc1\u7801\u9519\u8bef!]</name>
+      <attachments>
+        <attachment source="d4e205aa-5a2f-481a-a965-fd1dd6da3e7a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729691841" status="passed" stop="1609729692118">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test03_register[13600001112-test123-8888-666666-on-None-\u624b\u673a\u5df2\u5b58\u5728!]</name>
+      <attachments>
+        <attachment source="83ce29fd-4767-4e89-bc56-2dcd250e20b1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729692119" status="passed" stop="1609729692443">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test03_register[13600001113-test123-8888-666667-on-None-\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="237068da-09e3-4ed6-8a31-18533e49efde-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729692444" status="passed" stop="1609729692596">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test04_login[13600001111-test123-\u767b\u5f55\u6210\u529f]</name>
+      <attachments>
+        <attachment source="49ae66fb-a565-464d-abde-b645f11c7fdc-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729692597" status="passed" stop="1609729692728">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test04_login[13600001113-test123-\u7528\u6237\u4e0d\u5b58\u5728]</name>
+      <attachments>
+        <attachment source="294a8527-6abc-494f-8be0-11987f42d451-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729692730" status="passed" stop="1609729692870">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test04_login[13600001111--\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a]</name>
+      <attachments>
+        <attachment source="dcf18e02-4dee-48ba-a65b-86f9c5095bd9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729692871" status="passed" stop="1609729693006">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test04_login[13600001111-error-\u9501\u5b9a]</name>
+      <attachments>
+        <attachment source="60703b0c-b5d0-442a-94f1-71e09d30ad6e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729693007" status="passed" stop="1609729693214">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test05_is_login[\u767b\u5f55-OK]</name>
+      <attachments>
+        <attachment source="d89b393e-ef53-4d06-829f-06829ca9aeba-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729693215" status="passed" stop="1609729693352">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test01_reg_login.TestRegLogin.test05_is_login[\u672a\u767b\u5f55-\u60a8\u672a\u767b\u9646\uff01]</name>
+      <attachments>
+        <attachment source="5b706549-8e4d-49db-b4b1-0a456636ff50-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729693353" status="passed" stop="1609729693569">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test02_approve.TestApprove.test01_approve[\u5f20\u4e09-120101199003077477-200]</name>
+      <attachments>
+        <attachment source="d4605af2-a25b-425a-b9eb-0ae93969d592-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729693570" status="passed" stop="1609729693784">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test02_approve.TestApprove.test02_get_approve[\u5df2\u767b\u5f55-1111]</name>
+      <attachments>
+        <attachment source="c0c9bec2-82e8-468c-8858-3a1a589c72a3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729693785" status="passed" stop="1609729694045">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test02_approve.TestApprove.test02_get_approve[\u672a\u767b\u5f55-\u7acb\u5373\u767b\u5f55]</name>
+      <attachments>
+        <attachment source="d65c2303-5c1e-414e-a7da-4407a10956ea-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729694046" status="passed" stop="1609729694492">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test01_trust_register[OK]</name>
+      <attachments>
+        <attachment source="56ef1d2a-493c-4f17-801f-6b39abe1ccbb-attachment.txt" title="Captured log setup" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729694493" status="passed" stop="1609729694718">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test02_trust_verify_code[200]</name>
+      <attachments>
+        <attachment source="7bdc70de-20d9-4bec-a274-7678056ea0d9-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="d2fe7037-3a46-4f15-ad55-f925ebc45ba9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729694720" status="passed" stop="1609729695244">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test03_trust_recharge[1000-8888-OK]</name>
+      <attachments>
+        <attachment source="a519334c-ed95-4de7-9e2c-ad0914edd850-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="2d204569-3474-424d-b479-1267f98672ec-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729695245" status="passed" stop="1609729695540">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test03_trust_recharge[1000-8889-\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="3df3e164-3af9-48b5-9667-080659d2a77a-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="6f26569d-a949-4cc3-8fd5-df7a24f86a44-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729695541" status="passed" stop="1609729695837">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test03_trust_recharge[-8888-\u5145\u503c\u91d1\u989d\u4e0d\u80fd\u4e3a\u7a7a]</name>
+      <attachments>
+        <attachment source="373971c1-912e-4818-b9be-511a5419020b-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="3c1b312c-2dba-4281-9a11-b57d10fc5f83-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729695839" status="passed" stop="1609729696132">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test03_trust_recharge[-1-8888-\u5145\u503c\u91d1\u989d\u5fc5\u987b\u5927\u4e8e0]</name>
+      <attachments>
+        <attachment source="3cf70a84-51a2-48db-8bb6-8d36efc63f44-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="7940fb51-ffd3-4aa5-a381-36d6d13f518f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729696133" status="passed" stop="1609729696411">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test03_trust.TestTrust.test03_trust_recharge[0-8888-\u5145\u503c\u91d1\u989d\u5fc5\u987b\u5927\u4e8e0]</name>
+      <attachments>
+        <attachment source="78cf0ae3-eae2-4789-a857-6f5d2812d4e9-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="c873db90-ae1e-4a25-be94-7a3531d0454b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729696412" status="passed" stop="1609729696631">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test01_tender[642--1-100-form]</name>
+      <attachments>
+        <attachment source="55a13e58-307d-4901-9f68-b004c85f7ff4-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="813b7586-1e89-4a19-b7ec-d3b4ba5202a0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729696632" status="passed" stop="1609729696846">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test01_tender[642--1-10-\u6295\u6807\u91d1\u989d\u4e0d\u80fd\u4f4e\u4e8e\u6700\u4f4e\u6295\u6807\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="e985eda0-44bb-4a84-a8e8-721f135ef4c4-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="f0ef5deb-7297-4cfd-8f01-100bca473dc7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729696847" status="passed" stop="1609729697072">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test01_tender[642--1-10000-\u6295\u6807\u91d1\u989d\u4e0d\u80fd\u8d85\u8fc7\u6700\u9ad8\u6295\u6807\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="b1441a33-d46e-4150-81e7-59e858549125-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="2d3ddf76-6aaf-4f39-9f8b-c94da61b850d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729697073" status="passed" stop="1609729697292">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test01_tender[642--1--\u4e0d\u662f\u6b63\u786e\u7684\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="c99d8f60-ae0d-4ff7-8714-4a195a4b5f8f-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="17e7e378-e22f-4850-b8b0-a13c4cf08dfd-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729697293" status="passed" stop="1609729697752">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test02_tender_public[OK]</name>
+      <attachments>
+        <attachment source="b465af83-8778-455b-b2ea-f6d27b5ab057-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="69656c60-ee90-4131-bb7f-51572015b19b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729697753" status="passed" stop="1609729697991">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test04_tender.TestTender.test03_tender_list[642]</name>
+      <attachments>
+        <attachment source="18adc0c0-76cd-4d87-94ad-0b947de5a4d2-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="2b8831d0-825f-4c79-a830-927ee2d8212f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1609729697993" status="passed" stop="1609729699248">
+      <name>.Users.lgy.PycharmProjects.lgy.sz18p2p.script.test05_tender_done.TestTenderDone.test01_tender_done</name>
+      <attachments>
+        <attachment source="4eae5b8a-9855-4688-b3e4-b1aa17d4f42f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="88822-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,44 @@
+{
+  "tender": [
+    {
+      "desc": "请求投资成功",
+      "id": 642,
+      "depositCertificate": -1,
+      "amount": 100,
+      "expect_msg": "form"
+    },
+    {
+      "desc": "请求投资失败（投资金额小于最低投资金额）",
+      "id": 642,
+      "depositCertificate": -1,
+      "amount": 10,
+      "expect_msg": "投标金额不能低于最低投标金额"
+    },
+    {
+      "desc": "后台请求投资失败（投资金额大于最高投资金额）",
+      "id": 642,
+      "depositCertificate": -1,
+      "amount": 10000,
+      "expect_msg": "投标金额不能超过最高投标金额"
+    },
+    {
+      "desc": "后台请求投资失败（金额为空）",
+      "id": 642,
+      "depositCertificate": -1,
+      "amount": "",
+      "expect_msg": "不是正确的金额"
+    }
+  ],
+  "tender_public": [
+    {
+      "desc": "三方投资成功",
+      "expect_msg": "OK"
+    }
+  ],
+  "tender_list": [
+    {
+      "desc": "获取投资列表成功",
+      "expect_msg": 642
+    }
+  ]
+}

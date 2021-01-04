@@ -1,0 +1,22 @@
+{
+  "approve": [
+    {
+      "desc": "开户认证成功",
+      "realname": "张三",
+      "card_id": "120101199003077477",
+      "expect_status": 200
+    }
+  ],
+  "get_approve": [
+    {
+      "desc": "获取认证信息 成功（已登录）",
+      "status": "已登录",
+      "expect_msg": "1111"
+    },
+    {
+      "desc": "获取认证信息失败（未登录）",
+      "status": "未登录",
+      "expect_msg": "立即登录"
+    }
+  ]
+}

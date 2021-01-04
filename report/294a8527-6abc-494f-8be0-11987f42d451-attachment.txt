@@ -1,0 +1,2 @@
+api_reg_login.py            60 INFO     正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+test01_reg_login.py        118 INFO     断言通过，断言信息：用户不存在

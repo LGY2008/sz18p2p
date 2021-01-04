@@ -1,0 +1,2 @@
+api_reg_login.py            23 INFO     正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+test01_reg_login.py         33 INFO     断言通过，断言信息：200

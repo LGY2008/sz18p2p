@@ -1,0 +1,615 @@
+2021-01-04 10:32:44,254 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 10:32:45,503 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 10:32:45,645 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 10:32:45,647 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 10:32:45,782 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 10:32:45,784 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 10:32:45,918 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 10:32:45,920 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 10:32:46,055 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 10:32:46,057 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:32:46,193 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:46,273 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 10:32:46,275 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:32:46,410 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:46,477 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:32:46,616 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 10:32:46,684 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 10:32:46,686 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:32:46,821 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:46,900 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:32:46,994 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 10:32:46,996 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:32:47,131 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:47,211 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 10:32:47,305 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 10:32:47,308 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:32:47,443 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 10:32:47,507 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:32:47,572 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 10:32:47,575 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:32:47,710 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:47,785 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:32:47,851 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 10:32:47,853 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:32:47,992 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:48,072 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:32:48,142 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 10:32:48,145 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:48,287 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 10:32:48,289 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 10:32:48,422 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 10:32:48,424 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 10:32:48,557 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 10:32:48,559 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 10:32:48,697 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 10:32:48,699 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:48,850 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 10:32:48,918 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 10:32:48,920 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 10:32:49,052 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 10:32:49,054 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:49,276 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 10:32:49,278 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:49,494 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 10:32:49,762 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 10:32:49,765 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:50,202 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:50,410 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 10:32:50,412 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:50,926 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 10:32:50,928 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:51,222 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 10:32:51,224 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:51,522 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 10:32:51,524 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:51,814 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 10:32:51,816 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:52,107 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 10:32:52,109 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:52,335 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010410325785550361\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104103255\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010410325785550361\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010410325785550361\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 10:32:52,338 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:52,560 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 10:32:52,562 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:52,783 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 10:32:52,785 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:53,011 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 10:32:53,013 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:53,497 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 10:32:53,499 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:53,729 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 10:32:53,731 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 10:32:53,862 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:32:53,946 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:32:54,012 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:32:55,046 INFO [lgy] [test05_tender_done.py (teardown_class:20] - 正在调用清除测试数据...
+2021-01-04 10:41:28,543 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 10:41:28,685 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:41:28,760 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:41:28,849 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:41:29,849 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 10:42:11,207 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 10:42:11,346 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:11,421 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:11,510 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:12,501 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 10:42:23,285 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 10:42:24,541 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 10:42:24,683 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 10:42:24,684 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 10:42:24,821 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 10:42:24,823 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 10:42:24,951 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 10:42:24,952 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 10:42:25,080 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 10:42:25,082 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:42:25,217 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:25,298 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 10:42:25,300 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:42:25,435 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:25,501 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 10:42:25,637 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 10:42:25,706 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 10:42:25,708 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:42:25,848 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:25,928 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:26,020 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 10:42:26,022 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:42:26,157 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:26,233 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 10:42:26,325 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 10:42:26,328 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:42:26,463 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 10:42:26,532 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:26,597 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 10:42:26,599 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:42:26,730 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:26,804 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:26,870 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 10:42:26,872 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 10:42:27,007 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:27,141 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:27,214 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 10:42:27,216 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:27,362 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 10:42:27,364 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 10:42:27,493 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 10:42:27,495 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 10:42:27,627 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 10:42:27,629 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 10:42:27,766 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 10:42:27,768 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:27,914 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 10:42:27,983 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 10:42:27,985 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 10:42:28,117 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 10:42:28,119 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:28,342 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 10:42:28,344 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:28,567 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 10:42:28,843 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 10:42:28,845 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:29,280 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:29,494 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 10:42:29,495 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:29,998 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 10:42:29,999 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:30,278 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 10:42:30,280 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:30,559 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 10:42:30,561 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:30,851 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 10:42:30,852 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:31,132 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 10:42:31,134 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:31,358 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010410423689205371\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104104234\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010410423689205371\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010410423689205371\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 10:42:31,360 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:31,579 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 10:42:31,580 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:31,804 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 10:42:31,805 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:32,017 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 10:42:32,019 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:32,483 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 10:42:32,485 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:32,712 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 10:42:32,714 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 10:42:32,849 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 10:42:32,923 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 10:42:32,989 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 10:42:33,960 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:01:57,703 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 11:01:59,076 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 11:01:59,226 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:01:59,227 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 11:01:59,367 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:01:59,369 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 11:01:59,505 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 11:01:59,506 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 11:01:59,635 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 11:01:59,637 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:01:59,777 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:01:59,856 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 11:01:59,858 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:01:59,997 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:00,067 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:02:00,309 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:02:00,378 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 11:02:00,380 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:00,511 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:00,587 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:00,676 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:02:00,678 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:00,819 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:00,900 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 11:02:00,995 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:02:00,996 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:01,128 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:02:01,192 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:01,260 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 11:02:01,262 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:01,403 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:01,482 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:01,552 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 11:02:01,554 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:01,694 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:01,774 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:01,844 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 11:02:01,846 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:01,996 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 11:02:01,998 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 11:02:02,127 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 11:02:02,129 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 11:02:02,257 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 11:02:02,258 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 11:02:02,401 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 11:02:02,402 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:02,553 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:02:02,622 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 11:02:02,624 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:02:02,760 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 11:02:02,762 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:02,977 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 11:02:02,979 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:03,190 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 11:02:03,467 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 11:02:03,469 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:03,894 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:04,102 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 11:02:04,104 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:04,602 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 11:02:04,604 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:04,880 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 11:02:04,881 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:05,175 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 11:02:05,177 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:05,470 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:02:05,471 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:05,766 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:02:05,768 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:05,984 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010411021153814893\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104110209\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010411021153814893\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010411021153814893\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 11:02:05,986 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:06,195 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 11:02:06,197 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:06,406 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 11:02:06,407 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:06,614 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 11:02:06,616 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:07,063 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 11:02:07,065 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:07,302 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 11:02:07,304 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:02:07,435 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:07,510 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:07,576 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:08,554 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:02:41,388 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 11:02:42,696 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 11:02:42,842 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:02:42,844 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 11:02:42,976 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:02:42,978 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 11:02:43,115 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 11:02:43,117 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 11:02:43,255 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 11:02:43,256 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:02:43,397 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:43,476 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 11:02:43,478 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:02:43,609 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:43,674 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:02:43,814 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:02:43,882 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 11:02:43,884 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:44,015 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:44,091 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:44,193 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:02:44,195 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:44,335 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:44,413 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 11:02:44,508 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:02:44,510 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:44,649 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:02:44,718 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:44,787 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 11:02:44,789 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:44,929 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:45,008 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:45,079 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 11:02:45,081 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:02:45,211 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:45,352 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:45,418 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 11:02:45,420 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:45,571 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 11:02:45,572 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 11:02:45,710 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 11:02:45,711 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 11:02:45,839 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 11:02:45,841 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 11:02:45,984 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 11:02:45,985 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:46,127 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:02:46,191 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 11:02:46,193 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:02:46,330 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 11:02:46,332 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:46,560 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 11:02:46,562 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:46,772 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 11:02:47,030 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 11:02:47,032 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:47,479 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:47,702 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 11:02:47,703 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:48,209 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 11:02:48,211 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:48,504 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 11:02:48,505 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:48,799 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 11:02:48,800 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:49,076 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:02:49,077 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:49,370 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:02:49,372 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:49,589 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010411025514484195\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104110252\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010411025514484195\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010411025514484195\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 11:02:49,591 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:49,801 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 11:02:49,803 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:50,026 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 11:02:50,027 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:50,234 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 11:02:50,236 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:50,689 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 11:02:50,690 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:50,927 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 11:02:50,928 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:02:51,059 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:51,134 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:51,200 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:02:52,190 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:02:59,261 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:02:59,400 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:02:59,475 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:02:59,563 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:03:00,556 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:03:15,230 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:03:15,369 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:03:15,444 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:03:15,533 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:03:16,505 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:05:49,849 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 11:05:51,214 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 11:05:51,351 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:05:51,353 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 11:05:51,493 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:05:51,494 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 11:05:51,632 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 11:05:51,634 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 11:05:51,772 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 11:05:51,774 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:05:51,913 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:51,994 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 11:05:51,996 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:05:52,136 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:52,207 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:05:52,346 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:05:52,415 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 11:05:52,417 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:05:52,548 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:52,624 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:05:52,714 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:05:52,717 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:05:52,848 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:52,924 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 11:05:53,018 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:05:53,021 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:05:53,160 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:05:53,229 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:05:53,297 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 11:05:53,300 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:05:53,440 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:53,518 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:05:53,589 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 11:05:53,591 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:05:53,730 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:53,813 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:05:53,883 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 11:05:53,885 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:54,035 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 11:05:54,037 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 11:05:54,175 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 11:05:54,176 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 11:05:54,304 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 11:05:54,306 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 11:05:54,440 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 11:05:54,441 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:54,593 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:05:54,661 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 11:05:54,663 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:05:54,792 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 11:05:54,793 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:55,008 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 11:05:55,010 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:55,236 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 11:05:55,512 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 11:05:55,514 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:56,002 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:56,223 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 11:05:56,225 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:56,724 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 11:05:56,725 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:56,999 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 11:05:57,001 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:57,297 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 11:05:57,299 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:57,592 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:05:57,594 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:57,869 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:05:57,870 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:58,101 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010411060365928899\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104110601\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010411060365928899\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010411060365928899\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 11:05:58,103 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:58,313 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 11:05:58,315 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:58,539 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 11:05:58,541 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:58,763 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 11:05:58,764 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:59,239 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 11:05:59,241 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:05:59,465 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 11:05:59,467 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:05:59,598 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:05:59,674 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:05:59,740 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:00,696 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:06:38,917 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 11:06:40,227 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 11:06:40,364 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:06:40,366 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 11:06:40,497 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:06:40,499 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 11:06:40,627 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 11:06:40,629 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 11:06:40,758 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 11:06:40,760 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:06:40,899 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:40,982 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 11:06:40,984 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:06:41,114 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:41,179 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:06:41,310 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:06:41,375 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 11:06:41,377 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:06:41,517 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:41,596 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:06:41,687 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:06:41,689 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:06:41,820 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:41,895 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 11:06:41,985 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:06:41,987 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:06:42,126 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:06:42,195 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:06:42,264 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 11:06:42,266 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:06:42,406 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:42,486 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:06:42,556 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 11:06:42,558 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:06:42,688 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:42,764 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:06:42,829 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 11:06:42,831 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:42,982 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 11:06:42,984 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 11:06:43,121 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 11:06:43,123 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 11:06:43,259 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 11:06:43,261 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 11:06:43,395 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 11:06:43,396 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:43,546 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:06:43,614 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 11:06:43,616 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:06:43,752 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 11:06:43,754 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:43,967 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 11:06:43,969 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:44,180 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 11:06:44,458 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 11:06:44,460 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:44,888 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:45,111 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 11:06:45,112 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:45,608 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 11:06:45,610 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:45,902 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 11:06:45,904 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:46,198 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 11:06:46,200 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:46,492 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:06:46,494 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:46,768 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:06:46,769 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:47,000 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010411065255907501\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104110650\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010411065255907501\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010411065255907501\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 11:06:47,002 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:47,223 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 11:06:47,225 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:47,438 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 11:06:47,439 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:47,661 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 11:06:47,663 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:48,144 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 11:06:48,146 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:48,369 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 11:06:48,371 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:06:48,502 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:06:48,578 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:06:48,644 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:06:49,586 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
+2021-01-04 11:08:08,503 INFO [lgy] [test01_reg_login.py (setup_class:12] - 正在调用清除测试数据...
+2021-01-04 11:08:09,780 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/0.12334223
+2021-01-04 11:08:09,916 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:08:09,919 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/12334223
+2021-01-04 11:08:10,049 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：200
+2021-01-04 11:08:10,052 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/
+2021-01-04 11:08:10,189 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：404
+2021-01-04 11:08:10,190 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/keliinkdfyyosd
+2021-01-04 11:08:10,320 INFO [lgy] [test01_reg_login.py (test01_img_code:33] - 断言通过，断言信息：400
+2021-01-04 11:08:10,322 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:08:10,453 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:10,529 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：短信发送成功
+2021-01-04 11:08:10,531 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:08:10,661 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:10,727 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123234
+2021-01-04 11:08:10,858 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:08:10,923 INFO [lgy] [test01_reg_login.py (test02_sms_code:55] - 断言通过，断言信息：图片验证码错误
+2021-01-04 11:08:10,926 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:08:11,066 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:11,146 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:08:11,240 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:08:11,243 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:08:11,383 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:11,462 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-01-04 11:08:11,558 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：注册成功
+2021-01-04 11:08:11,560 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:08:11,701 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-01-04 11:08:11,770 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:08:11,839 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误!
+2021-01-04 11:08:11,841 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:08:11,973 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:12,048 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:08:12,118 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：手机已存在!
+2021-01-04 11:08:12,120 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123343
+2021-01-04 11:08:12,263 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:12,372 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:08:12,443 INFO [lgy] [test01_reg_login.py (test03_register:87] - 断言通过，断言信息：验证码错误
+2021-01-04 11:08:12,445 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:12,595 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：登录成功
+2021-01-04 11:08:12,597 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001113', 'password': 'test123'}
+2021-01-04 11:08:12,727 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：用户不存在
+2021-01-04 11:08:12,730 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': ''}
+2021-01-04 11:08:12,869 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：密码不能为空
+2021-01-04 11:08:12,871 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'error'}
+2021-01-04 11:08:13,005 INFO [lgy] [test01_reg_login.py (test04_login:118] - 断言通过，断言信息：锁定
+2021-01-04 11:08:13,007 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:13,149 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:08:13,213 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：OK
+2021-01-04 11:08:13,215 INFO [lgy] [api_reg_login.py (api_get_login_status:66] - 正在查询登录状态接口，请求url:http://user-p2p-test.itheima.net/member/public/login
+2021-01-04 11:08:13,351 INFO [lgy] [test01_reg_login.py (test05_is_login:135] - 断言通过，断言信息：您未登陆！
+2021-01-04 11:08:13,353 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:13,568 INFO [lgy] [test02_approve.py (test01_approve:33] - 断言成功，断言信息：
+2021-01-04 11:08:13,570 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:13,784 INFO [lgy] [test02_approve.py (test02_get_approve:53] - 认证查询接口断言成功！，断言内容：1111
+2021-01-04 11:08:14,044 INFO [lgy] [test02_approve.py (test02_get_approve:66] - 认证查询接口断言成功！，断言内容：立即登录
+2021-01-04 11:08:14,046 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:14,493 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:14,717 INFO [lgy] [test03_trust.py (test02_trust_verify_code:50] - 断言充值验证码成功，断言信息：200
+2021-01-04 11:08:14,720 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:15,243 INFO [lgy] [test03_trust.py (test03_trust_recharge:70] - 断言充值成功，断言信息：OK 实际结果为：NetSave OK
+2021-01-04 11:08:15,245 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:15,539 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：验证码错误 实际结果为：{"status":100,"description":"验证码错误"}
+2021-01-04 11:08:15,542 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:15,837 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额不能为空 实际结果为：{"status":100,"description":"充值金额不能为空"}
+2021-01-04 11:08:15,839 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:16,131 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:08:16,133 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:16,410 INFO [lgy] [test03_trust.py (test03_trust_recharge:78] - 断言充值成功，断言信息：充值金额必须大于0 实际结果为：{"status":100,"description":"充值金额必须大于0"}
+2021-01-04 11:08:16,412 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:16,630 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：form 实际结果：{'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://52.83.181.187:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'21010411082219106203\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20210104\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020210104110819\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'21010411082219106203\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://user-p2p-test.itheima.net/trust/chinapnr/tender/return/21010411082219106203\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}
+2021-01-04 11:08:16,633 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:16,845 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能低于最低投标金额 实际结果：投标金额不能低于最低投标金额
+2021-01-04 11:08:16,847 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:17,071 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：投标金额不能超过最高投标金额 实际结果：投标金额不能超过最高投标金额
+2021-01-04 11:08:17,074 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:17,291 INFO [lgy] [test04_tender.py (test01_tender:31] - 断言成功！预期结果：不是正确的金额 实际结果：不是正确的金额
+2021-01-04 11:08:17,293 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:17,751 INFO [lgy] [test04_tender.py (test02_tender_public:48] - 断言成功！预期结果：OK 实际结果：InitiativeTender OK
+2021-01-04 11:08:17,753 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:17,990 INFO [lgy] [test04_tender.py (test03_tender_list:62] - 断言成功！预期结果：642 实际结果：642
+2021-01-04 11:08:17,993 INFO [lgy] [api_reg_login.py (api_get_img_code:23] - 正在调用获取图片验证码接口，请求url:http://user-p2p-test.itheima.net/common/public/verifycode1/123123
+2021-01-04 11:08:18,128 INFO [lgy] [api_reg_login.py (api_get_sms_code:34] - 正在调用获取短信验证码接口，请求url:http://user-p2p-test.itheima.net/member/public/sendSms, 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-01-04 11:08:18,202 INFO [lgy] [api_reg_login.py (api_post_register:49] - 正在注册接口，请求url:http://user-p2p-test.itheima.net/member/public/reg, 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-01-04 11:08:18,268 INFO [lgy] [api_reg_login.py (api_post_login:60] - 正在登录接口，请求url:http://user-p2p-test.itheima.net/member/public/login, 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-01-04 11:08:19,248 INFO [lgy] [test05_tender_done.py (teardown_class:21] - 正在调用清除测试数据...
